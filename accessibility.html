@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<link rel="icon" type="image/webp" href="images/favicon.webp">
+<link rel="apple-touch-icon" href="images/favicon.webp">
+<meta name="theme-color" content="#2f6fed">
+<title>Accessibility | Fitness4 | Cotulla, TX</title>
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://fitness4-cotulla-demo.netlify.app/accessibility.html">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html#top" class="logo"><span class="num">4</span>FITNESS</a>
+    <div class="nav-links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#reviews">Reviews</a>
+      <a href="index.html#location">Hours</a>
+    </div>
+    <a href="tel:+18302557273" class="nav-cta">(830) 255-7273</a>
+    <button class="burger" id="burgerBtn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html#about">About</a>
+    <a href="index.html#gallery">Gallery</a>
+    <a href="index.html#reviews">Reviews</a>
+    <a href="index.html#location">Hours</a>
+    <a href="tel:+18302557273" class="cta">Call (830) 255-7273</a>
+  </div>
+</header>
+
+<section class="legal-page">
+  <div class="wrap">
+    <h1>Accessibility Statement</h1>
+    <div class="legal-updated">Last Updated: June 2026</div>
+
+    <p>Fitness4 is committed to making this website usable by as many people as possible, including people with disabilities. We've targeted the <strong>Web Content Accessibility Guidelines (WCAG) 2.1, Level AA</strong> as the standard for this Site.</p>
+
+    <h2>What We've Implemented</h2>
+    <ul>
+      <li>Descriptive alt text on meaningful images, and decorative elements hidden from screen readers</li>
+      <li>A semantic heading structure (one H1 per page, nested H2/H3 sections) so screen reader users can navigate by heading</li>
+      <li>Color combinations checked for sufficient contrast against this Site's dark background</li>
+      <li>A keyboard-navigable menu, including the mobile menu toggle</li>
+      <li>A fully responsive layout that works across phone, tablet, and desktop screen sizes</li>
+      <li>Reduced-motion support — scroll animations are disabled automatically for visitors with a system-level "reduce motion" preference set</li>
+    </ul>
+
+    <h2>Known Limitations</h2>
+    <p>This Site is a newly built template and hasn't yet had a full third-party accessibility audit. The photo gallery currently shows placeholder tiles rather than real photography — once real images are added, each will need descriptive alt text written for it before launch.</p>
+
+    <h2>Ongoing Effort</h2>
+    <p>Accessibility is an ongoing effort, not a one-time fix. We welcome feedback — if you encounter a barrier using this Site, please let us know using the contact information below so we can address it.</p>
+
+    <h2>Contact Us About Accessibility</h2>
+    <p><strong>Fitness4</strong><br>
+    406 N Front St, Cotulla, TX 78014<br>
+    Phone: <a href="tel:+18302557273">(830) 255-7273</a></p>
+
+    <p style="margin-top:32px; font-size:13px; color:var(--white-dim);">This statement is a starting template, not legal advice. A statement alone doesn't create legal protection — the Site actually has to be accessible. Recommend a real accessibility review before this Site goes live, since ADA-related lawsuits against small business websites are common.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-brand">
+      <span class="logo"><span class="num">4</span>FITNESS</span>
+    </div>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Visit Us</h4>
+        <p>406 N Front St<br>Cotulla, TX 78014</p>
+        <a href="tel:+18302557273">(830) 255-7273</a>
+      </div>
+      <div class="footer-col">
+        <h4>Membership</h4>
+        <p>Blue Member — 24/7 Access</p>
+        <p>Orange Member — Weekday/Weekend</p>
+        <a href="tel:+18302557273">Call for current rates</a>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <div class="social-row">
+          <a href="https://www.facebook.com/Fitness4tx/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7H7.9V12h2.6V9.8c0-2.6 1.5-4 3.9-4 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/fitness4tx/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 2 .3 2.4.5.6.2 1 .5 1.5.9.4.4.7.9.9 1.5.2.4.4 1.2.5 2.4.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 2-.5 2.4-.2.6-.5 1-.9 1.5-.4.4-.9.7-1.5.9-.4.2-1.2.4-2.4.5-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-2-.3-2.4-.5-.6-.2-1-.5-1.5-.9-.4-.4-.7-.9-.9-1.5-.2-.4-.4-1.2-.5-2.4-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.3-2 .5-2.4.2-.6.5-1 .9-1.5.4-.4.9-.7 1.5-.9.4-.2 1.2-.4 2.4-.5 1.3-.1 1.7-.1 4.9-.1M12 0C8.7 0 8.3 0 7 .1c-1.3.1-2.2.3-3 .6-.8.3-1.5.7-2.2 1.4C1.1 2.8.7 3.5.4 4.3c-.3.8-.5 1.7-.6 3C-.2 8.6 0 9 0 12s0 3.4.1 4.7c.1 1.3.3 2.2.6 3 .3.8.7 1.5 1.4 2.2.7.7 1.4 1.1 2.2 1.4.8.3 1.7.5 3 .6C8.3 24 8.7 24 12 24s3.7 0 5-.1c1.3-.1 2.2-.3 3-.6.8-.3 1.5-.7 2.2-1.4.7-.7 1.1-1.4 1.4-2.2.3-.8.5-1.7.6-3 .1-1.3.1-1.7.1-4.7s0-3.4-.1-4.7c-.1-1.3-.3-2.2-.6-3-.3-.8-.7-1.5-1.4-2.2-.7-.7-1.4-1.1-2.2-1.4-.8-.3-1.7-.5-3-.6C15.7 0 15.3 0 12 0z"/><circle cx="12" cy="12" r="3.2"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <p>© 2026 Fitness4. All rights reserved.</p>
+      <div style="display:flex; gap:16px; flex-wrap:wrap;">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-use.html">Terms of Use</a>
+        <a href="accessibility.html">Accessibility</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const burgerBtn = document.getElementById('burgerBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+burgerBtn.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.remove('open')));
+</script>
+
+</body>
+</html>
